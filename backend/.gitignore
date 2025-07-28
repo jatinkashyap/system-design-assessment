@@ -1,0 +1,31 @@
+# Logs
+*.log
+
+# node_modules
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variable files
+.env
+
+# Build output
+dist/
+build/
+
+# Editor directories and files
+.vscode/*
+
+# Upload directories (if using file uploads)
+uploads/
+temp/
+tmp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+

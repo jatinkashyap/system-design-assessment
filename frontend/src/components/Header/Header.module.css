@@ -1,0 +1,122 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  height: 56px;
+  background-color: #0f0f0f;
+  border-bottom: 1px solid #3f3f3f;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  min-width: 200px;
+}
+
+.menuBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: background-color 0.2s;
+}
+
+.menuBtn:hover {
+  background-color: #3f3f3f;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logoText {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff0000;
+  letter-spacing: -0.5px;
+}
+
+.headerCenter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+  max-width: 640px;
+  justify-content: center;
+}
+
+.searchContainer {
+  display: flex;
+  flex: 1;
+  max-width: 540px;
+  height: 40px;
+}
+
+.searchInput {
+  flex: 1;
+  padding: 0 16px;
+  background-color: #121212;
+  border: 1px solid #3f3f3f;
+  border-right: none;
+  border-radius: 20px 0 0 20px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.searchInput:focus {
+  border-color: #065fd4;
+}
+
+.searchInput::placeholder {
+  color: #888;
+}
+
+.searchBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 40px;
+  background-color: #3f3f3f;
+  border: 1px solid #3f3f3f;
+  border-radius: 0 20px 20px 0;
+  color: #ffffff;
+  transition: background-color 0.2s;
+}
+
+.searchBtn:hover {
+  background-color: #4f4f4f;
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 200px;
+  justify-content: flex-end;
+}
+
+.profileBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #ff0000;
+  color: #ffffff;
+  transition: background-color 0.2s;
+}
+
+.profileBtn:hover {
+  background-color: #cc0000;
+}
